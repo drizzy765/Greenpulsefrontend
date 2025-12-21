@@ -7,9 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'fs', // Exclude file system module
-        'path', // Exclude path module
-        'os', // Exclude os module
+        'fs', 'path', 'os', 'child_process', 'crypto', 'stream', 'util', 'url', 'events', 'http', 'https', 'assert', 'zlib', 'v8', 'buffer'
       ],
     },
   },
