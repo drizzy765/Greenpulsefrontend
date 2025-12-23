@@ -347,7 +347,7 @@ export default function AiCalculator() {
         </div>
 
         {/* Quick Insights Sidebar */}
-        <div className="lg:col-span-1 space-y-6">
+        <div className="hidden lg:block lg:col-span-1 space-y-6">
           <Card>
             <div className="card-content">
               <h3 className="text-lg font-semibold text-slate-900 mb-4">
